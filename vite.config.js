@@ -20,21 +20,11 @@ export default defineConfig({
         background_color: "#ffffff",
         icons: [
           {
-            src: "icon-192.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "/icon-512.png",
-            sizes: "512x512",
-            type: "image/png",
-          },
-          {
-            src: "icon-512.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "any maskable",
-          },
+              "src": "vite.svg",
+              "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+              "type": "image/svg+xml",
+              "purpose": "any"
+          }
         ],
       },
     }),
